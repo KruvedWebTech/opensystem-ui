@@ -1,0 +1,96 @@
+<!-- <div class="container">
+  <div class="left-section">
+    <h1>Sign Up</h1>
+    <p>Already have an account? <a href="#">Sign in</a></p>
+    <form id="signup-form">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" placeholder="John Doe" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email address *</label>
+        <input type="email" id="email" placeholder="hughes.brian@company.com" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password *</label>
+        <input type="password" id="password" placeholder="********" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password *</label>
+        <input type="password" id="confirm-password" placeholder="********" required>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="agree" required>
+        <label for="agree">I agree to the terms and conditions</label>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Or continue with</p>
+    <div class="social-icons">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-google"></i>
+    </div>
+  </div>
+  <div class="right-section">
+    <h2>Welcome to our website</h2>
+    <p class="community-text"></p>
+    <div class="people-joined">More than 17k people joined us, it's your turn</div>
+    <div class="settings-icon"></div>
+  </div>
+</div> -->
+<div class="container" #mainContainer>
+  <div class="forms-container">
+    <div class="form-control signup-form">
+      <form action="#">
+        <h2>Signup</h2>
+        <input type="text" placeholder="Username" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm password" required />
+        <button>Signup</button>
+      </form>
+      <span>or signup with</span>
+      <div class="socials">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+    <div class="form-control signin-form">
+      <form action="#">
+        <h2>Signin</h2>
+        <input type="text" placeholder="Username" required />
+        <input type="password" placeholder="Password" required />
+        <button>Signin</button>
+      </form>
+      <span>or signin with</span>
+      <div class="socials">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </div>
+  <div class="intros-container">
+    <div class="intro-control signin-intro">
+      <div class="intro-control__inner">
+        <h2>Welcome back!</h2>
+        <p>
+          Welcome back! We are so happy to have you here. It's great to see you again. We hope you had a safe and enjoyable time away.
+        </p>
+        <button #signupBtn id="signup-btn">No account yet? Signup.</button>
+      </div>
+    </div>
+    <div class="intro-control signup-intro">
+      <div class="intro-control__inner">
+        <h2>Come join us!</h2>
+        <p>
+          We are so excited to have you here. If you haven't already, create an account to get access to exclusive offers, rewards, and discounts.
+        </p>
+        <button #signinBtn id="signin-btn">Already have an account? Signin.</button>
+      </div>
+    </div>
+  </div>
+</div>
+
